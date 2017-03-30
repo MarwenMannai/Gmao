@@ -1,0 +1,7 @@
+accueil:
+    path:     /accueil
+    defaults: { _controller: gmaoaccueilBundle:login:login }
+    
+account:
+    path:     /compte
+    defaults: { _controller: gmaoaccueilBundle:compte:compte }
